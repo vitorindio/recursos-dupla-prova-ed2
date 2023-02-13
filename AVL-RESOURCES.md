@@ -87,6 +87,8 @@ ___Deleção__: Quando um nó é removido da árvore, pode ser necessário reali
 ___Busca__: A busca em uma árvore AVL funciona da mesma maneira que em uma árvore binária de pesquisa normal. Você começa no nó raiz e, comparando o valor procurado com o valor no nó atual, você avança para a subárvore esquerda ou direita, dependendo se o valor procurado for menor ou maior do que o valor no nó atual, respectivamente. Esse processo continua até encontrar o nó com o valor procurado ou até chegar a uma folha, indicando que o valor não está na árvore._
 
 
+A árvore AVL mantém a propriedade de balanceamento para garantir que a altura da árvore não fique muito grande, o que garante uma complexidade de tempo eficiente para inserção, busca e exclusão. Isso é conseguido realizando rotações na árvore sempre que a altura de um nó ficar desequilibrada. As vantagens da árvore AVL incluem a complexidade de tempo eficiente para operações de árvore e o fato de ser fácil de implementar e usar. As desvantagens incluem o fato de que as rotações podem ser computacionalmente intensas e que a árvore AVL pode não ser tão eficiente quanto outras árvores de
+
 ```python
 class NoAVL:
     # Classe para cada nó da árvore AVL

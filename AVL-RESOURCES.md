@@ -8,10 +8,6 @@
 
 2.4. As desvantagens da árvore AVL incluem a complexidade adicional necessária para manter a propriedade de balanceamento, bem como a necessidade de realizar rotações, o que pode ser lento em grandes árvores. Além disso, a árvore AVL é menos eficiente do que outras árvores de busca, como a árvore rubro-negra, pois requer mais rotações.
 
-3.1. A árvore rubro-negra mantém a propriedade de balanceamento por meio de regras de coloração. Cada nó na árvore pode ser colorido de vermelho ou preto, e as regras de coloração garantem que a altura da árvore não seja muito grande. As regras incluem que um nó vermelho não pode ter um nó filho vermelho, e que a quantidade de nós pretos em qualquer caminho da raiz até uma folha deve ser a mesma.
-
-3.2. A vantagem da árvore rubro-negra em relação à árvore AVL é que ela é mais eficiente, pois realiza menos rotações para manter a propriedade de balanceamento. Além disso, a árvore rubro-negra é mais simples de implementar do
-
 __O que é uma árvore AVL?__
 _Resposta: Uma árvore AVL é uma estrutura de dados de árvore de busca binária balanceada, desenvolvida por Adelson-Velsky e Landis._
 

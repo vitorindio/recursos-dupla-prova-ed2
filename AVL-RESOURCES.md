@@ -1,5 +1,17 @@
 <h2 color="red">AVL</h2>
 
+2.1. A propriedade de balanceamento na árvore AVL é a propriedade que garante que a altura da árvore não seja muito grande, o que permite que as operações de busca, inserção e exclusão sejam realizadas em tempo eficiente. Isso é alcançado mantendo a diferença de altura entre as subárvores esquerda e direita de cada nó limitada a 1.
+
+2.2. A vantagem da árvore AVL é que ela permite realizar operações de busca, inserção e exclusão em tempo O(log n), onde n é o número de nós na árvore. Isso é devido a sua propriedade de balanceamento, que garante que a altura da árvore não seja muito grande.
+
+2.3. A árvore AVL mantém a propriedade de balanceamento por meio de rotações. Quando um nó é inserido ou excluído, a árvore é verificada para ver se a propriedade de balanceamento ainda está sendo mantida. Se a propriedade de balanceamento for violada, uma rotação é realizada para equilibrar a árvore.
+
+2.4. As desvantagens da árvore AVL incluem a complexidade adicional necessária para manter a propriedade de balanceamento, bem como a necessidade de realizar rotações, o que pode ser lento em grandes árvores. Além disso, a árvore AVL é menos eficiente do que outras árvores de busca, como a árvore rubro-negra, pois requer mais rotações.
+
+3.1. A árvore rubro-negra mantém a propriedade de balanceamento por meio de regras de coloração. Cada nó na árvore pode ser colorido de vermelho ou preto, e as regras de coloração garantem que a altura da árvore não seja muito grande. As regras incluem que um nó vermelho não pode ter um nó filho vermelho, e que a quantidade de nós pretos em qualquer caminho da raiz até uma folha deve ser a mesma.
+
+3.2. A vantagem da árvore rubro-negra em relação à árvore AVL é que ela é mais eficiente, pois realiza menos rotações para manter a propriedade de balanceamento. Além disso, a árvore rubro-negra é mais simples de implementar do
+
 __O que é uma árvore AVL?__
 _Resposta: Uma árvore AVL é uma estrutura de dados de árvore de busca binária balanceada, desenvolvida por Adelson-Velsky e Landis._
 
